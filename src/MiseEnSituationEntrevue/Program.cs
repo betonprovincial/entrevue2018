@@ -13,7 +13,6 @@ namespace MiseEnSituationEntrevue
          * - Durée : 20 minutes
          * - Un employé de notre département TI prendra 5 à 10 minutes pour lire le test avec vous et répondre à vos questions.
          * - Le test comporte 3 questions (Question1, Question2A and Question2B)
-         * - Débutez la "Question2C" uniquement s'il vous reste du temps après avoir révisé les questions précédentes.
          * - Évaluation C# uniquement (pas de Web, pas d'Entity Framework, etc.)
          * - Tout le code du test se trouve dans la solution.
          * - Conseil/rappel : L'instruction pour afficher à l'écran (dans la console) est : Console.WriteLine(...)
@@ -25,7 +24,6 @@ namespace MiseEnSituationEntrevue
          * - Duration : 20 minutes
          * - An employee from our IT team will take 5 to 10 minutes to read the test and answer any question.
          * - The test has 3 questions (Question1, Question2A and Question2B)
-         * - Begin Question2C only if you have time left after reviewing previous questions.
          * - Based on C# only (no Web, no Entity Framework, etc.)
          * - All the code is in the solution.
          * - Hint/reminder : The instruction to write in the console is : Console.WriteLine(...)

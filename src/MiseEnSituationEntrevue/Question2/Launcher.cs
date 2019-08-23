@@ -54,7 +54,7 @@ namespace MiseEnSituationEntrevue.Question2
             /*
             // Notes concernant la réponse en exemple
             // 1) Pour récupérer "ententesPourClientCourant" on aurait pu utiliser la méthode d'extension .TrouverParClient(...)
-            // 2) LINQ a été utilisé, mais une solution avec des boucles (for/foreach) aurait été tout aussi appropriée (exemple pour bâtir plStr).
+            // 2) LINQ a été utilisé, mais une solution avec des boucles (for/foreach) aurait été tout aussi appropriée (par exemple pour bâtir plStr).
             // 3) La méthode d'extension .ProduitEtPrixToString() aurait pu être utilisée à la place de faire string.Format(...)
             
             var codeClientUnique = listeDePrix.Select(x => x.CodeClient).Distinct().ToList();

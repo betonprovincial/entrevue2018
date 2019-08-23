@@ -11,29 +11,29 @@ namespace MiseEnSituationEntrevue.Question1
      * Faire une boucle de 1 à 100 qui va afficher "Béton Provincial" à tous les multiples de 3
      * et "Informatique" à tous les multiples de 5.
      * Résultat attendu :
-     * Ligne #3 - Béton Provincial
-     * Ligne #5 - Informatique
-     * Ligne #6 - Béton Provincial
-     * Ligne #9 - Béton Provincial
-     * Ligne #10 - Informatique
-     * Ligne #12 - Béton Provincial
-     * Ligne #15 - Béton Provincial
-     * Ligne #15 - Informatique
+     * 3 - Béton Provincial
+     * 5 - Informatique
+     * 6 - Béton Provincial
+     * 9 - Béton Provincial
+     * 10 - Informatique
+     * 12 - Béton Provincial
+     * 15 - Béton Provincial
+     * 15 - Informatique
      * ...
      */
     #region English comments
     /**
-     * Make a loop from 1 to 100 that will output "Beton Provincial" when line number is a multiple of
-     * 3 and "Computer" when line number is a multiple of 5.
+     * Make a loop from 1 to 100 that will output "Beton Provincial" when value is a multiple of
+     * 3 and "Computer" when value is a multiple of 5.
      * Expected result : 
-     * Line #3 - Beton Provincial
-     * Line #5 - Computer
-     * Line #6 - Beton Provincial
-     * Line #9 - Beton Provincial
-     * Line #10 - Computer
-     * Line #12 - Beton Provincial
-     * Line #15 - Beton Provincial
-     * Line #15 - Computer
+     * 3 - Beton Provincial
+     * 5 - Computer
+     * 6 - Beton Provincial
+     * 9 - Beton Provincial
+     * 10 - Computer
+     * 12 - Beton Provincial
+     * 15 - Beton Provincial
+     * 15 - Computer
      * ...
      */
     #endregion
@@ -48,9 +48,9 @@ namespace MiseEnSituationEntrevue.Question1
             for (int i = 1; i <= 100; i++)
             {
                 if (i % 3 == 0)
-                    Console.WriteLine("Ligne #{0:000} - Béton Provincial", i);
+                    Console.WriteLine("{0:000} - Béton Provincial", i);
                 if (i % 5 == 0)
-                    Console.WriteLine("Ligne #{0:000} - Informatique", i);
+                    Console.WriteLine("{0:000} - Informatique", i);
             }
             */
             #endregion
